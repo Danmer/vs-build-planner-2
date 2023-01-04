@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "prepare": "git clone https://github.com/SHA65536/Vampire-Survivors-Bot && tsc scripts/prepare.ts --module esnext && node scripts/prepare.js",
-    "build": "vue-tsc && vite build",
+    "build": "npm run prepare && vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
