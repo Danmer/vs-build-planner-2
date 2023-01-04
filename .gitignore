@@ -26,3 +26,5 @@ dist-ssr
 # Submodules
 scripts/*.js
 Vampire-Survivors-Bot
+public/data.json
+public/data.min.json
