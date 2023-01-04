@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prepare": "git clone https://github.com/SHA65536/Vampire-Survivors-Bot",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
