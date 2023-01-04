@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prepare": "git clone https://github.com/SHA65536/Vampire-Survivors-Bot",
+    "prepare": "git clone https://github.com/SHA65536/Vampire-Survivors-Bot && tsc scripts/prepare.ts --module esnext && node scripts/prepare.js",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
@@ -13,6 +13,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "@vitejs/plugin-vue": "^4.0.0",
     "prettier": "^2.8.1",
     "typescript": "^4.9.3",
